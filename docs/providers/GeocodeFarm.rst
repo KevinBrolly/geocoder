@@ -54,6 +54,7 @@ Parameters
 - `key`: (optional) API Key. Only Required for Paid Users.
 - `lang`: (optional) 2 digit lanuage code to return results in. Currently only "en"(English) or "de"(German) supported.
 - `country`: (optional) The country to return results in. Used for biasing purposes and may not fully filter results to this specific country.
+- `count`: (optional) Max amount of results to return. Used for limiting results only and this amount of results will not always be returned. If less results are available then the count specified, all available results will be returned. Default value is 1.
 - `method`: (default=geocode) Use the following:
 
   - geocode
